@@ -1,0 +1,96 @@
+/*harici CSS sayfası*/
+
+*{
+		margin:0px;
+		padding:0px;
+		box-sizing: border-box;
+}
+
+body {
+	font-family:arial;
+}
+
+.wrapper {
+	background-color:#BFBFBF;
+	width:70%;
+	margin:0px auto;
+}
+
+.header {
+	background-color:#E4E4E4;
+	padding:60px;
+	text-align:center;
+	border:5px #000 solid;
+}
+
+.section {
+	padding:20px;
+	background-color:#B0B0B0
+}
+
+.section p {
+	font-size: 13px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.section img {
+	width:50%;
+	border: 5px #4d2626 double;
+	padding:5px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+	opacity: .8;
+}
+
+img:hover {
+	opacity:1;
+}
+
+.left {
+		background-color: #e68a00;
+		width:35%;
+		float:left;
+		padding:10px;
+		height:200px;
+		overflow:visible;
+		/*overflow:scroll;*/
+}
+
+.main {
+	background-color:#ff9900;
+	width:30%;
+	float:left;
+	padding:10px;
+	height:200px;
+	overflow:outo;
+}
+
+.right img {
+	opacity:.8;
+	border: 0px;
+	margin:0px;
+}
+
+img:hover {
+	opacity:1;
+}
+
+.right {
+	background-color:white;
+	width:35%;
+	float:left;
+	padding:10px;
+	height:200px;
+	overflow:hidden;
+}
+
+.footer {
+	background-color:black;
+	padding:10px;
+	color:orange;
+	margin: 0px;
+	clear:both;
+	
+}
+	

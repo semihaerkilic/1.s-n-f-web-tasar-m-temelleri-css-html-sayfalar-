@@ -1,0 +1,110 @@
+/*Harici CSS Sayfası*/
+body {
+	background-color:#ccc;
+	font-family:arial;
+}
+
+h3 {
+   font-family:verdana;
+   color:yellow;
+   background-color:orange;
+   padding:5px;
+   text-decoration:underline;
+}
+
+/*
+img {
+	width: 400px;
+	border:5px black double;
+	padding: 10px;
+	background-color:orange;
+	margin:20px;
+}
+*/
+
+.a {
+	width:350px;
+	border:10px black dashed;
+	background-color: white;
+	border-radius:20px;
+	margin:50px;
+	padding:3px;
+	
+}
+
+.b {
+	width:300px;
+	border:10px black double;
+	border-radius:20px;
+	margin:20px;
+	padding:5px;
+	background-color: blue;
+}
+
+.c {
+	width:200px;
+	border:10px black solid;
+	border-radius:20px;
+	margin:50px ;/*tek değer verirsen her taraf aynısını uygular, 2 değer erirsen ilk değer üst alt diğer değer sağ soldur ve 4 değer verirseniz üsten başlayarak saat yönünde sıra ile devam eder. ortalama=auto*/
+	padding:5px;
+	background-color: ccc;
+}
+
+.metin-1 {
+	font-family:verdana;
+	color:black;
+	background-color:red
+}
+
+#metin-2 {
+	background-color:pink;
+	
+}
+
+.box-1 {
+	width:300px;
+	border: 5px white dashed;
+	border-radius:30px;
+	padding:20px;/*tek değer verirsen her taraf aynısını uygular, 2 değer erirsen ilk değer üst alt diğer değer sağ soldur ve 4 değer verirseniz üsten başlayarak saat yönünde sıra ile devam eder.*/
+	background-color:pink;
+	color:brown;
+	margin:20px auto;
+}
+
+.box-2 {
+	width:300px;
+	border: 5px black dashed;
+	border-radius:30px;
+	padding:20px;
+	color:black;
+	margin:20px auto;
+	background-color:pink;
+}
+
+.box-3{
+	width:150px;
+	border: 5px black dashed;
+	border-radius:30px;
+	padding:20px;
+	color:black;
+	margin:20px auto;
+	background-color:pink;
+}
+
+.box-4 {
+	width:200px;
+	border: 5px black dashed;
+	border-radius:30px;
+	padding:10px;
+	color:black;
+	margin:20px auto;
+	background-color:pink;
+}
+
+.container {
+	width:500px;
+    background-color:ccc;	
+    padding:5px;
+	border:15px orange solid;
+	border-radius:30px;
+}

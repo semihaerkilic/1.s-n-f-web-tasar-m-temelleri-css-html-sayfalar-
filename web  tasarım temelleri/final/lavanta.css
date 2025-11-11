@@ -1,0 +1,21 @@
+/*harici css*/
+. {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.every {
+    background-color: #;
+}
+
+.navigation {
+    border-radius: 1px 30 px ;
+    width: 20%;
+    float: left;
+    margin: 20px 10px;
+    height: 300px;
+    background-color: #FFF8D4;
+    text-decoration: none;
+}
+

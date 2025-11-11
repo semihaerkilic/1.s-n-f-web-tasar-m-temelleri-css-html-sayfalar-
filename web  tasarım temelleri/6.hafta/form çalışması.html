@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Çalışması</title>
+	<meta charset="UTP-8">
+  </head>
+ <body style="font-family:arial;">
+  <h2>Form Çalışması</h2>
+  
+ <form action="verial.php" method="post"> 
+ Adınız: <input type="text" maxlength="25" placeholder="Adınız..."><br><br>
+ Soyadınız: <input type="text" maxlength="25" placeholder="Soyadınız..."><br><br>
+ Şifreniz: <input type="password" maxlength="8" placeholder="Şifreniz..."><br><br>
+ 
+ <h3>Cinsiyetiniz:</h3>
+ <input type="radio" name="gender" id="bay"><label for="bay">Bay</label><br>
+  <input type="radio" name="gender" id="bayan"><label for="bayan">Bayan</label>
+  <br><br>
+  
+  <h3>Gitmek İstediğiniz Şehirler:</h3>
+  <input type="checkbox" id="giresun"><label for="giresun">İstanbul</label><br>
+  <input type="checkbox" id="ankara"><label for="ankara">Ankara</label><br>
+  <input type="checkbox" id="samsun"><label for="samsun">Samsun</label><br>
+  <input type="checkbox" id="hakkari"><label for="hakkari">Hakkari</label><br>
+  <input type="checkbox" id="antalya"><label for="antalya">Antalya</label><br>
+  <input type="checkbox" id="afyon"><label for="afyon">Afyon</label><br>
+  <input type="checkbox" id="adana"><label for="adana">Adana</label><br>
+  <input type="checkbox" id="izmir"><label for="izmir">İzmir</label><br>
+  
+<h3>İlgilendiğiniz Araba Markası:</h3>
+<select>
+<optgroup label="Alman">
+    <option>Ford</option>
+    <option>Clio</option>
+	<option>BMW</option>
+	<option>AUDI</option>
+</optgroup>
+
+<optgroup label="Japon">
+	<option>Toyota</option>
+	<option>Porche</option>
+	<option>Honda</option>
+	<option>Subaru</option>
+	<option>Nissan</option>
+	</optgroup>
+	
+<optgroup label="İtalyan">
+	<option>Ferrari</option>
+	<option>Fiat</option>
+	<option>Masserati</option>
+	<option>Lamborghibi</option>
+    <option>Alfa-Romeo</option>
+</optgroup>
+</select>
+
+<br><br>
+<h3>Görüşlerinizi Bizimle Paylaşınız...</h3>
+<textarea cols="50" rows="10" placeholder="Bize Yazın..."></textarea><br><br>
+
+<input type="submit" value="Gönder">
+<input type="reset" value="Form İçeriğini Temizle">
+
+<button onclick="alert('JavaSpript Çalışması...')">Tıklayınız</button>
+
+
+</form>
+</body>
+</html>
